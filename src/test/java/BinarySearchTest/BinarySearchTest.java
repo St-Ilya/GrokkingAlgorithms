@@ -5,6 +5,9 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class BinarySearchTest {
+    /*
+    BinarySearch - вернет индекс числа, которое мы ищем
+     */
     @Test
             public void testBinarySearchGiveArrayAndItemReturnIndexOfItem() {
         BinarySearch binarySearch = new BinarySearch();

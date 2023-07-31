@@ -5,6 +5,10 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
+/*
+Для себя, Бинарный поиск это все же поиск, нужно переделать всю ее логику и только тогда эта игра будет работать
+ */
+
 public class GameStart {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
