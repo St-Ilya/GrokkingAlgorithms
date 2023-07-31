@@ -24,8 +24,8 @@ public class GameStart {
 
         int myValue = scanner.nextInt();
         while (myValue != hiddenNumber) {
+            System.out.println(binarySearch(range, hiddenNumber));
             myValue = scanner.nextInt();
-            binarySearch(range, hiddenNumber);
         }
 
     }
@@ -49,12 +49,5 @@ public class GameStart {
 
     public static int rand(int min, int max) {
         return new Random().ints(1, min, max).findFirst().getAsInt();
-    }
-
-    public static String checkWin(int answer, int hiddenNumber) {
-        if (answer == hiddenNumber)
-            return "Победа";
-        else
-            return "Пытайтесь дальше";
     }
 }
