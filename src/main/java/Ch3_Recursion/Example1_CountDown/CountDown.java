@@ -1,4 +1,4 @@
-package Recursion;
+package Ch3_Recursion.Example1_CountDown;
 
 public class CountDown {
     public static void main(String[] args) {
