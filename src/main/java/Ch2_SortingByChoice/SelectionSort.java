@@ -1,4 +1,4 @@
-package SortingByChoice;
+package Ch2_SortingByChoice;
 
 import java.util.ArrayList;
 import java.util.Arrays;
