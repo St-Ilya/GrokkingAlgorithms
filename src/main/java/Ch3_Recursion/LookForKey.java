@@ -1,4 +1,4 @@
-package Recursion;
+package Ch3_Recursion;
 
 public class LookForKey {
     public static void main(String[] args) {
