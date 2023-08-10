@@ -6,7 +6,7 @@ public class LookForKeyBase {
     public static void main(String[] args) {
 
     }
-
+/*
     public static void lookForKey(Box mainBox) {
         Stack<Box> pile = mainBox.makeAPileToLookThrought();
         while (!pile.isEmpty()) {
@@ -20,6 +20,7 @@ public class LookForKeyBase {
             }
         }
     }
+    */
 }
 
 class Box {
@@ -28,7 +29,7 @@ class Box {
     }
 }
 
-class Item extends Box {
+class Item {
 
     public boolean isABox() {
         return true;

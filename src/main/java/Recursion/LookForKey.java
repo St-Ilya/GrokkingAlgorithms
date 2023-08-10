@@ -5,6 +5,7 @@ public class LookForKey {
 
     }
 
+    /*
     public static void lookForKey(Box box) {
         for (Item item : box) {
             if (item.isABox()) {
@@ -14,4 +15,5 @@ public class LookForKey {
             }
         }
     }
+     */
 }
