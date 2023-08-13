@@ -1,4 +1,4 @@
-package Ch2_SortingByChoice;
+package Ch2_SelectionSort;
 
 import java.util.ArrayList;
 import java.util.Arrays;

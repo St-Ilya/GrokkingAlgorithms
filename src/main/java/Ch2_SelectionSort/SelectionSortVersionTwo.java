@@ -1,4 +1,4 @@
-package Ch2_SortingByChoice;
+package Ch2_SelectionSort;
 
 /*
 [5,3,6,2,10]
